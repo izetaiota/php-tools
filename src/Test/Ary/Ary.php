@@ -6,7 +6,7 @@
  * @copyright
  */
 
-namespace DataTypes\Ary;
+namespace Test\Ary;
 
 class Ary
 {

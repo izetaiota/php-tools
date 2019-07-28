@@ -6,7 +6,7 @@
  * @copyright
  */
 
-namespace DataTypes\Str;
+namespace Test\Str;
 
 class Str
 {

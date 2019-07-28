@@ -15,8 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "DataTypes\\String\\": "src/DataTypes/String",
-      "DataTypes\\Array\\": "src/DataTypes/Ary"
+      "Test\\Str\\": "src/Test/Str",
+      "Test\\Ary\\": "src/Test/Ary"
     }
   }
 }
