@@ -1,7 +1,7 @@
 {
   "name": "zetaiota/func",
   "description": "this is php func tools",
-  "type": "composer-plugin",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
