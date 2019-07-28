@@ -8,7 +8,7 @@
 
 namespace DataTypes\Ary;
 
-class Index
+class Ary
 {
     public function test1()
     {

@@ -6,9 +6,9 @@
  * @copyright
  */
 
-namespace DataTypes\String;
+namespace DataTypes\Str;
 
-class Index
+class Str
 {
     public function test()
     {
