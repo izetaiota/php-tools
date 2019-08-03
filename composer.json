@@ -15,8 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Redis\\": "src/Redis",
-      "Util\\": "src/Util"
+      "src\\Redis\\": "src/Redis",
+      "src\\Util\\": "src/Util"
     }
   }
 }

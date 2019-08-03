@@ -2,8 +2,8 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/Util" isTestSource="false" packagePrefix="Util\" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Redis" isTestSource="false" packagePrefix="Redis\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Util" isTestSource="false" packagePrefix="src\Util\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Redis" isTestSource="false" packagePrefix="src\Redis\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

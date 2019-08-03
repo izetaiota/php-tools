@@ -7,8 +7,8 @@ namespace src\Util;
 
 class Str
 {
-    public function test()
+    public static  function test()
     {
-        var_dump(666);
+        return 'hello world!';
     }
 }
