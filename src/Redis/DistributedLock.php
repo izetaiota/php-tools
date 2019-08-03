@@ -2,13 +2,11 @@
 /**
  * 分布式锁
  * 基于redis
- * @author SamDing
  */
-namespace koboshi\tool\Redis;
+namespace src\Redis;
 
 class DistributedLock
 {
-
     /**
      * redis连接
      * @var \Redis

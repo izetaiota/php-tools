@@ -1,6 +1,6 @@
 {
   "name": "zetaiota/func",
-  "description": "this is php func tools",
+  "description": "This is php func tools",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -15,8 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Test\\Str\\": "src/Test/Str",
-      "Test\\Ary\\": "src/Test/Ary"
+      "Redis\\": "src/Redis",
+      "Util\\": "src/Util"
     }
   }
 }
