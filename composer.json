@@ -6,7 +6,7 @@
   "authors": [
     {
       "name": "zetaiota",
-      "email": "anly95@foxmail.com"
+      "email": "zetaiota95@gmail.com"
     }
   ],
   "minimum-stability": "dev",
@@ -16,7 +16,9 @@
   "autoload": {
     "psr-4": {
       "src\\Redis\\": "src/Redis",
-      "src\\Util\\": "src/Util"
+      "src\\Util\\": "src/Util",
+      "src\\Encrypt\\": "src/Encrypt",
+      "src\\File\\": "src/File"
     }
   }
 }

@@ -1,11 +1,9 @@
 <?php
 
-namespace lib\Encrypt;
+namespace src\Encrypt;
 
 /** OpensslAES类
  * @desc      加密、解密(php7.+ 加密方式)
- * @author    [Anly,]
- * @since     2018/05/
  * @copyright
  */
 
@@ -16,9 +14,9 @@ class Aes
     public $iv;          //非 NULL 的初始化向量
     public $options;     //options 是以下标记的按位或： OPENSSL_RAW_DATA 、 OPENSSL_ZERO_PADDING
 
-    public function __construct($method = 'AES-128-ECB', $iv = '', $options = 0)
+    public function __construct($method = 'AES-128-ECB', $iv = '', $aesKey = 'aes_key', $options = 0)
     {
-        $this->secret_key = config('app.aeskey');
+        $this->secret_key = $aesKey;
         $this->method     = $method;
         $this->iv         = $iv;
         $this->options    = $options;
@@ -26,11 +24,6 @@ class Aes
 
     /**
      * 加密
-     * @desc
-     * @author    [Anly,]
-     * @since     2018/05/
-     * @modify
-     *
      * @param string $data 加密的数据
      *
      * @return string
@@ -42,11 +35,6 @@ class Aes
 
     /**
      * 解密
-     * @desc
-     * @author    [Anly,]
-     * @since     2018/05/
-     * @modify
-     *
      * @param string $data 解密的数据
      *
      * @return string

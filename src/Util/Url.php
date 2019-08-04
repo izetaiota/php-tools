@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexin\Func;
+namespace src\Util;
 
 class Url
 {

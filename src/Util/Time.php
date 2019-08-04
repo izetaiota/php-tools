@@ -1,15 +1,12 @@
 <?php
 
-namespace lib\Times;
+namespace src\Util;
 
 
 class Time
 {
     /**
      * 获取十三位的时间戳
-     * @desc
-     * @author    [Anly,]
-     * @since     2018/05/
      * @modify
      */
     public static function get13TimeStamp()
