@@ -3,16 +3,13 @@
  * 获取客户端ip地址
  */
 
-namespace expand;
+namespace src\Util;
 
 
 class IP
 {
     /**
      * @description 获取客户端ip地址
-     * @author      [zetaiota]
-     * @since       2018/11/13
-     * @modify
      * @return mixed
      */
     public static function address()
@@ -37,9 +34,6 @@ class IP
 
     /**
      * @description IP地址详情查询[淘宝ip库，ipip库]
-     * @author      [zetaiota]
-     * @since       2018/11/24
-     * @modify
      *
      * @param string $ip IP地址
      *
@@ -76,7 +70,7 @@ class IP
         }
         else
         {
-            $data = self::data('', '', '', '');
+            $data = [];
         }
 
         return $data;
@@ -84,9 +78,6 @@ class IP
 
     /**
      * @description 返回的ip数据
-     * @author      [zetaiota]
-     * @since       2018/11/24
-     * @modify
      *
      * @param string $country 国家
      * @param string $region  省份
@@ -95,7 +86,7 @@ class IP
      *
      * @return array
      */
-    public static function data($country, $region, $city, $isp)
+    private static function data($country, $region, $city, $isp)
     {
         return $data = [
             'country' => $country,

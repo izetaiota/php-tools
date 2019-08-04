@@ -1,22 +1,15 @@
 <?php
 /**
- * @desc
- * @author    [Anly]
- * @since     2018/7/18
- * @copyright
+ * layUi返回数据格式
  */
 
-namespace expand;
+namespace src\Util;
 
 
 class LayUi
 {
     /**
      * layUi表格数据返回方式
-     * @desc
-     * @author    [Anly,]
-     * @since     2018/05/
-     * @modify
      *
      * @param        $code
      * @param        $count
@@ -27,15 +20,11 @@ class LayUi
      */
     public static function LayUiTable($code, $count, $data, $msg = "")
     {
-        return json_encode(["code" => $code, "msg" => $msg, "count" => $count, "data" => $data],TRUE);
+        return json_encode(["code" => $code, "msg" => $msg, "count" => $count, "data" => $data], TRUE);
     }
 
     /**
      * 返回的数据
-     * @desc
-     * @author    [Anly,]
-     * @since     2018/05/
-     * @modify
      *
      * @param int    $code 状态码
      * @param string $msg  返回的信息
@@ -45,7 +34,7 @@ class LayUi
      */
     public static function resJson($code, $msg, $data = [])
     {
-        return json_encode(['code' => $code, 'msg' => $msg, 'data' => $data],TRUE);
+        return json_encode(['code' => $code, 'msg' => $msg, 'data' => $data], TRUE);
     }
 
 

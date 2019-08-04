@@ -4,7 +4,7 @@
  * 订单号生成类
  */
 
-namespace tools;
+namespace src\Util;
 
 
 class OrderSn
@@ -14,9 +14,6 @@ class OrderSn
      * 生成支付单编号(两位随机 + 从2000-01-01 00:00:00 到现在的秒数+微秒+会员ID%1000)，该值会传给第三方支付接口
      * 长度 =2位 + 10位 + 3位 + 3位  = 18位
      * 1000个会员同一微秒提订单，重复机率为1/100
-     * @author    [zetaiota]
-     * @since     2018/11/12
-     * @modify
      *
      * @param int $uid 用户uid
      *
@@ -36,9 +33,6 @@ class OrderSn
      * 订单编号生成规则，n(n>=1)个订单表对应一个支付表，
      * 生成订单编号(年取1位 + $pay_id取13位 + 第N个子订单取2位)
      * 1000个会员同一微秒提订单，重复机率为1/100
-     * @author    [zetaiota]
-     * @since     2018/11/12
-     * @modify
      *
      * @param int $pid 支付表自增ID
      *
@@ -62,8 +56,6 @@ class OrderSn
 
     /**
      * @description 生成订单号 16位
-     * @author      [zetaiota]
-     * @since       2018/11/12
      * @modify
      * @return string
      */

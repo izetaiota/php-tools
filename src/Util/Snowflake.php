@@ -3,7 +3,7 @@
 namespace src\Util;
 
 /**
- * @description 雪花算法（参考资料：https://github.com/zh-ang/php-snowflake）
+ * @description 雪花算法（参考资料：https://github.com/Anly95/php-snowflake）
  * @copyright
  */
 class Snowflake
