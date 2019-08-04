@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5652c2-62e5-4053-810b-a06578e20841" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/codetool-master/Func/Arr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/codetool-master/Func/Number.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Number.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/codetool-master/Func/Validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Validate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util/Ary.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Ary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/codetool-master/Func/Request.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,9 +48,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bak/codetool-master/Func/Request.php">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,7 +68,6 @@
         <option value="$PROJECT_DIR$/src/DataTypes/String/Index.php" />
         <option value="$PROJECT_DIR$/src/DataTypes/Array/Index.php" />
         <option value="$PROJECT_DIR$/src/DataTypes/Ary/Index.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/DataTypes/String/Str.php" />
         <option value="$PROJECT_DIR$/src/DataTypes/Str/Str.php" />
         <option value="$PROJECT_DIR$/src/Test/Ary/Ary.php" />
@@ -88,6 +89,7 @@
         <option value="$PROJECT_DIR$/bak/codetool-master/Func/Arr.php" />
         <option value="$PROJECT_DIR$/src/Util/Ary.php" />
         <option value="$PROJECT_DIR$/src/Util/Number.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -106,9 +108,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="427" />
-    <option name="y" value="43" />
-    <option name="width" value="1382" />
+    <option name="x" value="486" />
+    <option name="y" value="120" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -128,19 +130,6 @@
               <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FUNC" type="462c0819:PsiDirectoryNode" />
               <item name="bak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FUNC" type="462c0819:PsiDirectoryNode" />
-              <item name="bak" type="462c0819:PsiDirectoryNode" />
-              <item name="codetool-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FUNC" type="462c0819:PsiDirectoryNode" />
-              <item name="bak" type="462c0819:PsiDirectoryNode" />
-              <item name="codetool-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Func" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
@@ -198,12 +187,12 @@
       <updated>1564307587076</updated>
       <workItem from="1564307588699" duration="3669000" />
       <workItem from="1564322537864" duration="2016000" />
-      <workItem from="1564828750257" duration="9042000" />
+      <workItem from="1564828750257" duration="9295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14727000" />
+    <option name="totallyTimeSpent" value="14980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -237,11 +226,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bak/codetool-master/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bak/tool-master/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1061" />
@@ -507,6 +491,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bak/codetool-master/Func/Request.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/Number.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -514,8 +501,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bak/codetool-master/Func/Request.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
