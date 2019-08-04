@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5652c2-62e5-4053-810b-a06578e20841" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/codetool-master/Func/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/tool-master/Coroutine/Scheduler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/tool-master/Coroutine/SystemCall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/tool-master/Coroutine/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/tool-master/Coroutine/Util.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/tool-master/HttpClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak/tool-master/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/Text.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,38 +25,20 @@
       <file leaf-file-name="LayUi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bak/expand/LayUi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="160">
               <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ary.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/Ary.php">
+      <file leaf-file-name="Text.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/File/Text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1165">
-              <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
-                <element signature="e#7#23#0#PHP" expanded="true" />
+                <element signature="e#8#25#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Number.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/Number.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,6 +76,8 @@
         <option value="$PROJECT_DIR$/src/Util/Ary.php" />
         <option value="$PROJECT_DIR$/src/Util/Number.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bak/tool-master/Text.php" />
+        <option value="$PROJECT_DIR$/src/File/Text.php" />
       </list>
     </option>
   </component>
@@ -140,7 +128,7 @@
               <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FUNC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,8 +142,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\www\www_tools\FUNC\src\Util" />
       <recent name="D:\www\www_tools\FUNC\src\File" />
+      <recent name="D:\www\www_tools\FUNC\src\Util" />
       <recent name="D:\www\www_tools\FUNC\src" />
       <recent name="D:\www\www_tools\FUNC\src\Redis" />
     </key>
@@ -187,12 +175,12 @@
       <updated>1564307587076</updated>
       <workItem from="1564307588699" duration="3669000" />
       <workItem from="1564322537864" duration="2016000" />
-      <workItem from="1564828750257" duration="9295000" />
+      <workItem from="1564828750257" duration="9828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14980000" />
+    <option name="totallyTimeSpent" value="15513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -360,16 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bak/tool-master/HttpClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4505" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/tool-master/Text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3600" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bak/tool-master/Coroutine/Task.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -429,13 +407,6 @@
     <entry file="file://$PROJECT_DIR$/bak/expand/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bak/expand/LayUi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bak/expand/Regular.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -481,30 +452,56 @@
         <state relative-caret-position="-1165" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bak/codetool-master/Func/Request.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/Number.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/Ary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1165">
-          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
+        <state relative-caret-position="1215">
+          <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
           <folding>
             <element signature="e#7#23#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bak/codetool-master/Func/Request.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/Number.php">
+    <entry file="file://$PROJECT_DIR$/bak/tool-master/HttpClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="-4599">
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/bak/expand/LayUi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="160">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/Text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#8#25#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
