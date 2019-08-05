@@ -20,7 +20,8 @@ class Redis
      */
     public function __construct($host = '127.0.0.1', $port = '6379', $auth = '', $db = '')
     {
-        $this->redis = new \Redis($host, $port);
+        $this->redis = new \Redis();
+        $this->redis->connect($host, $port);
         $this->redis->auth($auth);
         $this->redis->select($db);
     }
