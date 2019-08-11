@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5652c2-62e5-4053-810b-a06578e20841" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Util/Obj.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redis/DistributedLock.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redis/DistributedLock.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redis/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redis/Redis.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistributedLock.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DistributedLock.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Redis/DistributedLock.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -72,10 +71,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Ary.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/Ary.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4380">
+              <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Obj.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Util/Obj.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#7#23#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Redis.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Redis/Redis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="420">
               <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="e#6#23#0#PHP" expanded="true" />
@@ -88,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -157,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/Util/OrderSn.php" />
         <option value="$PROJECT_DIR$/src/Redis/Redis.php" />
         <option value="$PROJECT_DIR$/src/Redis/DistributedLock.php" />
+        <option value="$PROJECT_DIR$/src/Util/Obj.php" />
       </list>
     </option>
   </component>
@@ -185,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,17 +219,10 @@
               <item name="FUNC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FUNC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,15 +230,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\www_tools\FUNC\src\Util" />
+      <recent name="D:\www\www_tools\FUNC\src\DataTypes\Array" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\www\www_tools\FUNC\src\Util" />
       <recent name="D:\www\www_tools\FUNC\bak\lib" />
       <recent name="D:\www\www_tools\FUNC\src\Redis" />
       <recent name="D:\www\www_tools\FUNC\src\File" />
       <recent name="D:\www\www_tools\FUNC\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\www\www_tools\FUNC\src\DataTypes\Array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,18 +268,18 @@
       <workItem from="1564322537864" duration="2016000" />
       <workItem from="1564828750257" duration="11609000" />
       <workItem from="1564908010345" duration="1533000" />
-      <workItem from="1565013121609" duration="673000" />
+      <workItem from="1565013121609" duration="1273000" />
+      <workItem from="1565495220124" duration="730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19500000" />
+    <option name="totallyTimeSpent" value="20830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -291,11 +307,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -391,13 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/Ary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -497,13 +501,13 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Redis/Redis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="420">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="e#6#23#0#PHP" expanded="true" />
@@ -515,6 +519,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/Ary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/Obj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#23#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
