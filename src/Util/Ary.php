@@ -19,19 +19,16 @@ class Ary
     public static function arrayGroupBy($arr, $key)
     {
         $grouped = [];
-        foreach ($arr as $value)
-        {
-            $grouped[ $value[ $key ] ][] = $value;
+        foreach ($arr as $value) {
+            $grouped[$value[$key]][] = $value;
         }
         // Recursively build a nested grouping if more parameters are supplied
         // Each grouped array value is grouped according to the next sequential key
-        if (func_num_args() > 2)
-        {
+        if (func_num_args() > 2) {
             $args = func_get_args();
-            foreach ($grouped as $key => $value)
-            {
-                $params          = array_merge([$value], array_slice($args, 2, func_num_args()));
-                $grouped[ $key ] = call_user_func_array('array_group_by', $params);
+            foreach ($grouped as $key => $value) {
+                $params        = array_merge([$value], array_slice($args, 2, func_num_args()));
+                $grouped[$key] = call_user_func_array('array_group_by', $params);
             }
         }
 
@@ -48,31 +45,24 @@ class Ary
      *
      * @return mixed|null
      */
-    public static function get($array, $key, $default = NULL)
+    public static function get($array, $key, $default = null)
     {
-        if (!is_array($array))
-        {
+        if (!is_array($array)) {
             return $default;
         }
 
-        if (is_null($key))
-        {
+        if (is_null($key)) {
             return $array;
         }
 
-        if (array_key_exists($key, $array))
-        {
-            return $array[ $key ];
+        if (array_key_exists($key, $array)) {
+            return $array[$key];
         }
 
-        foreach (explode('.', $key) as $segment)
-        {
-            if (is_array($array) && array_key_exists($segment, $array))
-            {
-                $array = $array[ $segment ];
-            }
-            else
-            {
+        foreach (explode('.', $key) as $segment) {
+            if (is_array($array) && array_key_exists($segment, $array)) {
+                $array = $array[$segment];
+            } else {
                 return $default;
             }
         }
@@ -90,22 +80,16 @@ class Ary
      *
      * @return array|bool
      */
-    public static function groupBy(Array $array, $fieldName, $is_multi = FALSE)
+    public static function groupBy(Array $array, $fieldName, $is_multi = false)
     {
-        if (is_array($array) && $fieldName)
-        {
+        if (is_array($array) && $fieldName) {
             $tmp = [];
-            foreach ($array as $v)
-            {
-                if (isset($v[ $fieldName ]) && $v[ $fieldName ])
-                {
-                    if ($is_multi)
-                    {
-                        $tmp[ $v[ $fieldName ] ][] = $v;
-                    }
-                    else
-                    {
-                        $tmp[ $v[ $fieldName ] ] = $v;
+            foreach ($array as $v) {
+                if (isset($v[$fieldName]) && $v[$fieldName]) {
+                    if ($is_multi) {
+                        $tmp[$v[$fieldName]][] = $v;
+                    } else {
+                        $tmp[$v[$fieldName]] = $v;
                     }
                 }
             }
@@ -113,7 +97,7 @@ class Ary
             return $tmp;
         }
 
-        return FALSE;
+        return false;
     }
 
 
@@ -130,36 +114,28 @@ class Ary
     public static function columnSort(Array & $data, $columns, $order = 'desc')
     {
         $order = strtolower($order);
-        if (is_string($columns))
-        {
+        if (is_string($columns)) {
             $columns = explode(',', $columns);
         }
-        if (empty($columns))
-        {
-            return FALSE;
+        if (empty($columns)) {
+            return false;
         }
         function arrayColumnSortTmpFunc($columnsAry, $order)
         {
             return function ($a, $b) use ($columnsAry, $order) {
-                foreach ($columnsAry as $columns)
-                {
-                    if ($a[ $columns ] == $b[ $columns ])
-                    {
+                foreach ($columnsAry as $columns) {
+                    if ($a[$columns] == $b[$columns]) {
                         continue;
                     }
-                    if ($order == 'desc')
-                    {
-                        return $a[ $columns ] < $b[ $columns ];
-                    }
-                    else
-                    {
-                        if ($order == 'asc')
-                        {
-                            return $a[ $columns ] > $b[ $columns ];
+                    if ($order == 'desc') {
+                        return $a[$columns] < $b[$columns];
+                    } else {
+                        if ($order == 'asc') {
+                            return $a[$columns] > $b[$columns];
                         }
                     }
 
-                    return FALSE;
+                    return false;
                 }
             };
         }
@@ -183,16 +159,13 @@ class Ary
     {
         $field_sort     = explode(',', trim(trim($sort_map, ',')));
         $final_sort_arr = [];
-        foreach ($field_sort as $k => $value)
-        {
+        foreach ($field_sort as $k => $value) {
             list($field, $sort_type) = explode(' ', $value);
-            if (empty($field))
-            {
-                return FALSE;
+            if (empty($field)) {
+                return false;
             }
 
-            switch ($sort_type)
-            {
+            switch ($sort_type) {
                 case 'asc':
                     $sort_type = SORT_ASC;
                     break;
@@ -205,9 +178,8 @@ class Ary
             }
 
             $field_data = array_column($list, $field);
-            if (empty($field_data))
-            {
-                return FALSE;
+            if (empty($field_data)) {
+                return false;
             }
 
             $final_sort_arr = array_merge($final_sort_arr, [
@@ -218,5 +190,33 @@ class Ary
         $final_sort_arr[] = &$list;
 
         call_user_func_array('array_multi_sort', $final_sort_arr);
+    }
+
+
+    /**
+     * @description 二维数组去重
+     *
+     * @param array  $array  去重数组
+     * @param string $fields 去重字段
+     *
+     * @return array
+     */
+    public static function uniqueArr($array, $fields)
+    {
+        $result = [];
+        foreach ($array as $k => $val) {
+            $flag = false;
+            foreach ($result as $_val) {
+                if ($_val[$fields] == $val[$fields]) {
+                    $flag = true;
+                    break;
+                }
+            }
+            if (!$flag) {
+                $result[] = $val;
+            }
+        }
+
+        return $result;
     }
 }
