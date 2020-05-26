@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Participle;
+namespace src\Participle\Lib;
 
 /**
  * 使用分词

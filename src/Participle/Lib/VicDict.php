@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Participle;
+namespace src\Participle\Lib;
 
 /**
  * Add word to dict.

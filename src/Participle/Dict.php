@@ -4,6 +4,9 @@
 namespace src\Participle;
 
 
+use src\Participle\Lib\VicDict;
+use src\Participle\Lib\VicWord;
+
 class Dict
 {
     /**
