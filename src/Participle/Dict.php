@@ -7,10 +7,13 @@ namespace src\Participle;
 use src\Participle\Lib\VicDict;
 use src\Participle\Lib\VicWord;
 
+//参考资料：https://github.com/lizhichao/VicWord
+//qq的分词 http://nlp.qq.com/semantic.cgi#page2
+//百度的分词 http://ai.baidu.com/tech/nlp/lexical
 class Dict
 {
     /**
-     * @description
+     * @description 添加词库
      *
      * @param string $words          词语
      * @param string $part_of_speech 词性
