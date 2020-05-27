@@ -1,7 +1,7 @@
 <?php
 
 
-namespace src\Participle\Dict;
+namespace src\Participle;
 
 
 use src\Participle\Lib\VicDict;
