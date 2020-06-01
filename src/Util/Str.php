@@ -45,4 +45,24 @@ class Str
     {
         return base_convert($ts, 36, 10);
     }
+
+
+    /**
+     * @description ASCII 字符串转utf-8字符串【参考资料：https://blog.csdn.net/TottyAndBaty/article/details/83829163】
+     * @modify
+     *
+     * @param string $hex_data 转码字符串
+     *
+     * @return string
+     */
+    public static function hex2bin($hex_data)
+    {
+        $bin_data = '';
+        for ($i = 0; $i < strlen($hex_data); $i += 2) {
+
+            $bin_data .= chr(hexdec(substr($hex_data, $i, 2)));
+        }
+
+        return $bin_data;
+    }
 }
