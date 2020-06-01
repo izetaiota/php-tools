@@ -40,7 +40,7 @@ class Price
      *
      * @param int $price
      *
-     * @return string    $price_format
+     * @return Strings    $price_format
      */
     public static function priceFormat($price)
     {

@@ -15,7 +15,7 @@ abstract class FilteRepeatedComments extends BloomFilterRedis
 {
     /**
      * 表示判断重复内容的过滤器
-     * @var string
+     * @var Strings
      */
     protected $bucket = 'bulong';
 

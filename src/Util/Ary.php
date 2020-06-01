@@ -11,8 +11,8 @@ class Ary
     /**
      * @description 二维数组分组
      *
-     * @param array  $arr 二维数组
-     * @param string $key 要分组的key
+     * @param array   $arr 二维数组
+     * @param Strings $key 要分组的key
      *
      * @return array
      */
@@ -39,9 +39,9 @@ class Ary
     /**
      * @description 获取数组内容
      *
-     * @param array  $array
-     * @param string $key
-     * @param null   $default
+     * @param array   $array
+     * @param Strings $key
+     * @param null    $default
      *
      * @return mixed|null
      */
@@ -74,9 +74,9 @@ class Ary
     /**
      * @description 将一维数组按照指定的字段分组
      *
-     * @param array  $array
-     * @param string $fieldName
-     * @param bool   $is_multi
+     * @param array   $array
+     * @param Strings $fieldName
+     * @param bool    $is_multi
      *
      * @return array|bool
      */
@@ -107,7 +107,7 @@ class Ary
      *
      * @param  array  需要排序的数据
      * @param  mixed  排序字段列表 eg. name,age
-     * @param  string 排序规则 asc,desc default: desc
+     * @param  Strings 排序规则 asc,desc default: desc
      *
      * @return bool|array
      */
@@ -148,8 +148,8 @@ class Ary
      * 将数组按照指定字段升降序排列
      * 模拟sql中的写法
      *
-     * @param  array  $list     需要排序的二维数组
-     * @param  string $sort_map 排序方式 与sql中的order写法一致 asc升序 desc降序
+     * @param  array   $list     需要排序的二维数组
+     * @param  Strings $sort_map 排序方式 与sql中的order写法一致 asc升序 desc降序
      *                          比如name asc,age desc 多个字段以逗号分隔，排序值以空格分隔
      *                          也可以写作name,age desc 默认是asc
      *
@@ -196,8 +196,8 @@ class Ary
     /**
      * @description 二维数组去重
      *
-     * @param array  $array  去重数组
-     * @param string $fields 去重字段
+     * @param array   $array  去重数组
+     * @param Strings $fields 去重字段
      *
      * @return array
      */
