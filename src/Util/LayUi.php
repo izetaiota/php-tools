@@ -14,9 +14,9 @@ class LayUi
      * @param        $code
      * @param        $count
      * @param        $data
-     * @param Strings $msg
+     * @param Str    $msg
      *
-     * @return Strings
+     * @return Str
      */
     public static function LayUiTable($code, $count, $data, $msg = "")
     {
@@ -26,11 +26,11 @@ class LayUi
     /**
      * 返回的数据
      *
-     * @param int     $code 状态码
-     * @param Strings $msg  返回的信息
-     * @param array   $data 返回的数据
+     * @param int   $code 状态码
+     * @param Str   $msg  返回的信息
+     * @param array $data 返回的数据
      *
-     * @return Strings
+     * @return Str
      */
     public static function resJson($code, $msg, $data = [])
     {

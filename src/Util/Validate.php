@@ -11,7 +11,7 @@ class Validate
     /**
      * @description 密码强度校验(必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间)
      *
-     * @param Strings $str 校验的密码
+     * @param Str $str 校验的密码
      *
      * @return bool
      */
@@ -33,7 +33,7 @@ class Validate
      * 虚拟运营商：170
      * @author lan
      *
-     * @param Strings $mobile 手机号码
+     * @param Str $mobile 手机号码
      *
      * @return bool
      */
@@ -49,7 +49,7 @@ class Validate
      * 验证邮箱是否正确
      * @author lan
      *
-     * @param Strings $email 邮箱地址
+     * @param Str $email 邮箱地址
      *
      * @return bool
      */
@@ -67,7 +67,7 @@ class Validate
      * 验证身份证号码格式是否正确
      * 仅支持二代身份证
      *
-     * @param Strings $idCard 身份证号码
+     * @param Str $idCard 身份证号码
      *
      * @return boolean
      */
@@ -120,7 +120,7 @@ class Validate
     /**
      * @description 校验腾讯QQ
      *
-     * @param Strings $str
+     * @param Str $str
      *
      * @return bool
      */

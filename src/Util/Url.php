@@ -8,7 +8,7 @@ class Url
      * 追加url参数到url中,如果已存在，则覆盖
      * @param $url
      * @param array $appendQueryParams
-     * @return Strings
+     * @return Str
      */
     public static function appendQueryParams($url, $appendQueryParams = [])
     {

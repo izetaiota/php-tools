@@ -28,7 +28,7 @@ class Number
      * @param      $str
      * @param bool $float 是否保留小数
      *
-     * @return Strings
+     * @return Str
      */
     public static function filter_num($str, $float = FALSE)
     {

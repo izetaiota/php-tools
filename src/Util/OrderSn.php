@@ -17,7 +17,7 @@ class OrderSn
      *
      * @param int $uid 用户uid
      *
-     * @return Strings
+     * @return Str
      */
     public static function makePaySn($uid)
     {
@@ -36,7 +36,7 @@ class OrderSn
      *
      * @param int $pid 支付表自增ID
      *
-     * @return Strings
+     * @return Str
      */
     public static function makeOrderSn($pid)
     {
@@ -57,7 +57,7 @@ class OrderSn
     /**
      * @description 生成订单号 16位
      * @modify
-     * @return Strings
+     * @return Str
      */
     public static function orderSn()
     {

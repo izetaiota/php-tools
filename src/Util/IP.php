@@ -35,7 +35,7 @@ class IP
     /**
      * @description IP地址详情查询[淘宝ip库，ipip库]
      *
-     * @param Strings $ip IP地址
+     * @param Str $ip IP地址
      *
      * @return array
      */
@@ -79,10 +79,10 @@ class IP
     /**
      * @description 返回的ip数据
      *
-     * @param Strings $country 国家
-     * @param Strings $region  省份
-     * @param Strings $city    地区
-     * @param Strings $isp     服务商
+     * @param Str $country 国家
+     * @param Str $region  省份
+     * @param Str $city    地区
+     * @param Str $isp     服务商
      *
      * @return array
      */

@@ -19,7 +19,9 @@
       "src\\Util\\": "src/Util",
       "src\\Encrypt\\": "src/Encrypt",
       "src\\File\\": "src/File",
-      "src\\Participle\\": "src/Participle"
+      "src\\Participle\\": "src/Participle",
+      "src\\Sql\\": "src/Sql",
+      "src\\Common\\": "src/Common"
     }
   }
 }

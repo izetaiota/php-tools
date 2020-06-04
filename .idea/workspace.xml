@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5652c2-62e5-4053-810b-a06578e20841" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FUNC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FUNC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BloomFilter/FilteRepeatedComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BloomFilter/FilteRepeatedComments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Ary.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Ary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/IP.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/IP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/LayUi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/LayUi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Number.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Number.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/OrderSn.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/OrderSn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Price.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Strings.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Validate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/BackupDb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/IAuth/IAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/JwtForTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/Office/Excel.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,56 +34,144 @@
     <session id="2125322274">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.0" value="13" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="15" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="json" value="2" />
           <entry key="log" value="5" />
-          <entry key="md" value="2" />
-          <entry key="php" value="50" />
+          <entry key="md" value="4" />
+          <entry key="php" value="70" />
           <entry key="sql" value="11" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="PHP" value="50" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JSON" value="2" />
+          <entry key="Markdown" value="4" />
+          <entry key="PHP" value="70" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="php" value="291" />
+          <entry key="dummy" value="8" />
+          <entry key="json" value="22" />
+          <entry key="md" value="156" />
+          <entry key="php" value="799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="PHP" value="291" />
+          <entry key="JSON" value="22" />
+          <entry key="Markdown" value="152" />
+          <entry key="PHP" value="803" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/Str.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="50">
-                <caret line="2" column="132" lean-forward="true" selection-start-line="2" selection-start-column="132" selection-end-line="2" selection-end-column="132" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BloomFilter/BloomFilterHash.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#7#29#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BloomFilter/BloomFilterRedis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-505">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Common/Enum/ErrorCode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#210#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Common/Enum/HttpCode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3125">
+              <caret line="125" column="39" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Common/Enum/Time.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sql/SqlBatchUp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1080">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="e#7#33#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,10 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DataTypes/String/Index.php" />
-        <option value="$PROJECT_DIR$/src/DataTypes/Array/Index.php" />
-        <option value="$PROJECT_DIR$/src/DataTypes/Ary/Index.php" />
-        <option value="$PROJECT_DIR$/src/DataTypes/String/Str.php" />
         <option value="$PROJECT_DIR$/src/DataTypes/Str/Str.php" />
         <option value="$PROJECT_DIR$/src/Test/Ary/Ary.php" />
         <option value="$PROJECT_DIR$/src/Test/Str/Str.php" />
@@ -121,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/Encrypt/Aes.php" />
         <option value="$PROJECT_DIR$/bak/codetool-master/Func/String.php" />
         <option value="$PROJECT_DIR$/src/File/Package.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/File/Csv.php" />
         <option value="$PROJECT_DIR$/src/Util/Url.php" />
         <option value="$PROJECT_DIR$/bak/expand/Regular.php" />
@@ -132,7 +231,6 @@
         <option value="$PROJECT_DIR$/bak/tool-master/Text.php" />
         <option value="$PROJECT_DIR$/src/File/Text.php" />
         <option value="$PROJECT_DIR$/bak/expand/Func.php" />
-        <option value="$PROJECT_DIR$/src/Util/Str.php" />
         <option value="$PROJECT_DIR$/src/Util/Snowflake.php" />
         <option value="$PROJECT_DIR$/src/Util/IP.php" />
         <option value="$PROJECT_DIR$/src/Util/LayUi.php" />
@@ -156,7 +254,15 @@
         <option value="$PROJECT_DIR$/src/Util/Token.php" />
         <option value="$PROJECT_DIR$/src/Sql/SqlBatchUp.php" />
         <option value="$PROJECT_DIR$/src/Util/Price.php" />
+        <option value="$PROJECT_DIR$/src/Participle/Function.php" />
+        <option value="$PROJECT_DIR$/src/Participle/Lib/VicWord.php" />
+        <option value="$PROJECT_DIR$/src/Participle/Lib/VicDict.php" />
+        <option value="$PROJECT_DIR$/src/Participle/Dict.php" />
+        <option value="$PROJECT_DIR$/src/Util/Str.php" />
+        <option value="$PROJECT_DIR$/src/Util/String.php" />
+        <option value="$PROJECT_DIR$/src/Util/Strings.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -172,10 +278,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-103" />
-    <option name="y" value="13" />
+    <option name="x" value="-442" />
+    <option name="y" value="140" />
     <option name="width" value="1934" />
-    <option name="height" value="1055" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -194,6 +300,19 @@
               <item name="FUNC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FUNC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FUNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FUNC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Enum" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -203,22 +322,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VicWord" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\www_tools\FUNC\src\Participle" />
+      <recent name="D:\www\www_tools\FUNC\src\Participle\Lib" />
+      <recent name="D:\www\www_tools\FUNC\src\Participle\Dict" />
+      <recent name="D:\www\www_tools\FUNC\src\Util" />
+      <recent name="D:\www\www_tools\FUNC\src\Sql" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\www\www_tools\FUNC\src\Util" />
       <recent name="D:\www\www_tools\FUNC\bak\lib" />
       <recent name="D:\www\www_tools\FUNC\src\Redis" />
       <recent name="D:\www\www_tools\FUNC\src\File" />
       <recent name="D:\www\www_tools\FUNC\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\www\www_tools\FUNC\src\Util" />
-      <recent name="D:\www\www_tools\FUNC\src\Sql" />
-      <recent name="D:\www\www_tools\FUNC\src\Common\Enum" />
-      <recent name="D:\www\www_tools\FUNC\src\BloomFilter" />
-      <recent name="D:\www\www_tools\FUNC\src\DataTypes\Array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,18 +393,22 @@
       <workItem from="1587193526526" duration="725000" />
       <workItem from="1588994220405" duration="655000" />
       <workItem from="1589364733771" duration="12000" />
-      <workItem from="1590484884277" duration="590000" />
+      <workItem from="1590484884277" duration="5402000" />
+      <workItem from="1590544664603" duration="5699000" />
+      <workItem from="1590985430283" duration="928000" />
+      <workItem from="1591002220110" duration="1553000" />
+      <workItem from="1591260912233" duration="750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56135000" />
+    <option name="totallyTimeSpent" value="69877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21244635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22371244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,6 +428,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22371244" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -349,24 +493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/Url.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/OrderSn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -375,20 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Common/Enum/Time.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Common/Enum/HttpCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="125" column="39" lean-forward="true" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -427,38 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/Str.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BloomFilter/FilteRepeatedComments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BloomFilter/BloomFilterRedis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BloomFilter/BloomFilterHash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sql/SqlBatchUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -507,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/IP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/Number.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -535,22 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lib/Office/Excel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lib/BackupDb.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lib/JwtForTP.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lib/IAuth/IAuth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1974" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Util/Time.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -558,20 +623,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Common/Enum/ErrorCode.php">
+    <entry file="file://$PROJECT_DIR$/src/Participle/Dict/dict.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/IP.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#26#0#PHP" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Participle/Lib/VicWord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Participle/Lib/VicDict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Participle/Dict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/OrderSn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/Str.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/JwtForTP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/BackupDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5712" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/Office/Excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/IAuth/IAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2205" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="132" lean-forward="true" selection-start-line="2" selection-start-column="132" selection-end-line="2" selection-end-column="132" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BloomFilter/BloomFilterHash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#29#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BloomFilter/BloomFilterRedis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sql/SqlBatchUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#33#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Enum/ErrorCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#210#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Enum/HttpCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3125">
+          <caret line="125" column="39" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Enum/Time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -5,16 +5,16 @@
 
 namespace src\Util;
 
-class Strings
+class Str
 {
     /**
      * 截取字符串并添加省略符
      *
      * @param         $str
      * @param int     $len
-     * @param Strings $strFix
+     * @param Str     $strFix
      *
-     * @return Strings
+     * @return Str
      */
     public static function cutStr($str, $len = 5, $strFix = '...')
     {
@@ -26,7 +26,7 @@ class Strings
      *
      * @param $ten
      *
-     * @return Strings
+     * @return Str
      */
     public static function tenTo36($ten)
     {
@@ -39,7 +39,7 @@ class Strings
      *
      * @param $ts
      *
-     * @return Strings
+     * @return Str
      */
     public static function threeSixTo10($ts)
     {
@@ -51,9 +51,9 @@ class Strings
      * @description ASCII 字符串转utf-8字符串【参考资料：https://blog.csdn.net/TottyAndBaty/article/details/83829163】
      * @modify
      *
-     * @param Strings $hex_data 转码字符串
+     * @param Str $hex_data 转码字符串
      *
-     * @return Strings
+     * @return Str
      */
     public static function hex2bin($hex_data)
     {

@@ -6,7 +6,7 @@
 
 ## composer安装
 
-```shell
+```php
 composer require zetaiota/func
 ```
 
