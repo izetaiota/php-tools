@@ -12,7 +12,7 @@ class Ary
      * @description 二维数组分组
      *
      * @param array $arr 二维数组
-     * @param Str   $key 要分组的key
+     * @param Str $key 要分组的key
      *
      * @return array
      */
@@ -27,7 +27,7 @@ class Ary
         if (func_num_args() > 2) {
             $args = func_get_args();
             foreach ($grouped as $key => $value) {
-                $params        = array_merge([$value], array_slice($args, 2, func_num_args()));
+                $params = array_merge([$value], array_slice($args, 2, func_num_args()));
                 $grouped[$key] = call_user_func_array('array_group_by', $params);
             }
         }
@@ -40,8 +40,8 @@ class Ary
      * @description 获取数组内容
      *
      * @param array $array
-     * @param Str   $key
-     * @param null  $default
+     * @param Str $key
+     * @param null $default
      *
      * @return mixed|null
      */
@@ -75,8 +75,8 @@ class Ary
      * @description 将一维数组按照指定的字段分组
      *
      * @param array $array
-     * @param Str   $fieldName
-     * @param bool  $is_multi
+     * @param Str $fieldName
+     * @param bool $is_multi
      *
      * @return array|bool
      */
@@ -105,13 +105,13 @@ class Ary
      * 将数据根据某个字段排序 支持desc和asc
      * 1.目前只能支持全部desc或者asc，如需使用根据字段随意的asc,desc 请使用column_multisort
      *
-     * @param  array  需要排序的数据
-     * @param  mixed  排序字段列表 eg. name,age
-     * @param  Str 排序规则 asc,desc default: desc
+     * @param array  需要排序的数据
+     * @param mixed  排序字段列表 eg. name,age
+     * @param Str 排序规则 asc,desc default: desc
      *
      * @return bool|array
      */
-    public static function columnSort(Array & $data, $columns, $order = 'desc')
+    public static function columnSort(Array &$data, $columns, $order = 'desc')
     {
         $order = strtolower($order);
         if (is_string($columns)) {
@@ -148,16 +148,16 @@ class Ary
      * 将数组按照指定字段升降序排列
      * 模拟sql中的写法
      *
-     * @param  array $list      需要排序的二维数组
-     * @param  Str   $sort_map  排序方式 与sql中的order写法一致 asc升序 desc降序
+     * @param array $list 需要排序的二维数组
+     * @param Str $sort_map 排序方式 与sql中的order写法一致 asc升序 desc降序
      *                          比如name asc,age desc 多个字段以逗号分隔，排序值以空格分隔
      *                          也可以写作name,age desc 默认是asc
      *
      * @return  bool|array
      */
-    public static function columnMultiSort(Array & $list, $sort_map)
+    public static function columnMultiSort(Array &$list, $sort_map)
     {
-        $field_sort     = explode(',', trim(trim($sort_map, ',')));
+        $field_sort = explode(',', trim(trim($sort_map, ',')));
         $final_sort_arr = [];
         foreach ($field_sort as $k => $value) {
             list($field, $sort_type) = explode(' ', $value);
@@ -196,8 +196,8 @@ class Ary
     /**
      * @description 二维数组去重
      *
-     * @param array $array  去重数组
-     * @param Str   $fields 去重字段
+     * @param array $array 去重数组
+     * @param Str $fields 去重字段
      *
      * @return array
      */
@@ -222,4 +222,20 @@ class Ary
 
     //二维数组排序
     //https://my.oschina.net/u/3934842/blog/3114786
+
+
+    /**
+     * 数组分页
+     * @param array $arr
+     * @param int $page
+     * @param int $page_size
+     * @return array
+     */
+    public static function pagination($arr, $page = 1, $page_size = 10)
+    {
+        $count = count($arr);   //总条数
+        $start = ($page - 1) * $page_size;  //偏移量，当前页-1乘以每页显示条数
+        $list = array_slice($arr, $start, $page_size);
+        return ['list' => $list, 'count' => $count];
+    }
 }
