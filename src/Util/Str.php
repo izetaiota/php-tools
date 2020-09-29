@@ -11,8 +11,8 @@ class Str
      * 截取字符串并添加省略符
      *
      * @param         $str
-     * @param int     $len
-     * @param Str     $strFix
+     * @param int $len
+     * @param Str $strFix
      *
      * @return Str
      */
@@ -170,4 +170,20 @@ class Str
     }
 
     /** php字符串处理之全角半角转换 end *************************************************************************/
+
+
+    /**
+     * @Desc  判断是否是json字符串
+     * @param $string
+     * @return bool
+     */
+    public static function is_json($string)
+    {
+        if (is_string($string)) {
+            @json_decode($string);
+            return (json_last_error() == JSON_ERROR_NONE);
+        } else {
+            return false;
+        }
+    }
 }
